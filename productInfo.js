@@ -145,34 +145,95 @@
 					},
 					soccer = {
 						item1 : {
-							title : "Ball",
-							cost : "75",
+							img : 'img/jesus/soccer1.jpg',
+							title : "Tiempo Legend VI",
+							cost : "200",
 							shipping : "5",
-							description : "A cool ball!"
+							description : "K-leather upper All Condition Control Men sizes 7-13 Women sizes 8-13"
 						},
 						item2 : {
-							title : "",
-							cost : "",
-							shipping : "",
-							description : ""
+							img : 'img/jesus/soccer2.jpg',
+							title : "Mercurial Superfly V",
+							cost : "300",
+							shipping : "5",
+							description : "Dynamic FIt Collar NIKE GRIP SYSTEM 3D SPEED PLATE All Condition Control Men sizes 7-13 Women sizes 8-13"
 						},
 						item3 : {
-							title : "",
-							cost : "",
-							shipping : "",
-							description : ""
+							img : 'img/jesus/soccer3.jpg',
+							title : "Magista Obra II",
+							cost : "300",
+							shipping : "5",
+							description : "Dynamic FIt Collar Rotational forefoot zone Textured upper enhances touch All Condition Control Men sizes 7-13 Women sizes 8-13"
 						},
 						item4 : {
-							title : "",
-							cost : "",
-							shipping : "",
-							description : ""
+							img : 'img/jesus/soccer4.jpg',
+							title : "Hypervenom Phantom 3",
+							cost : "300",
+							shipping : "5",
+							description : "Dynamic FIt Collar CHEVRON STUDS HYPERREACTIVE TEXTURE All Condition Control Men sizes 7-13 Women sizes 8-13"
 						},	
 						item5 : {
-							title : "",
-							cost : "",
-							shipping : "",
-							description : ""
+							img : 'img/jesus/soccer5.jpg',
+							title : "X 17+ PureChaos",
+							cost : "300",
+							shipping : "5",
+							description : "knit mid-cut design SPRINTFRAME outsole NON STOP GRIP Men sizes 7-13 Women sizes 8-13"
+						},
+						item6 : {
+							img : 'img/jesus/soccer6.jpg',
+							title : "Ace 17+ PureControl",
+							cost : "300",
+							shipping : "5",
+							description : "SPRINTFRAME Primeknit upper NON STOP GRIP Men sizes 7-13 Women sizes 8-13"
+						},
+						item7 : {
+							img : 'img/jesus/soccer7.jpg',
+							title : "Copa 17.1",
+							cost : "200",
+							shipping : "5",
+							description : "K-Leather Upper SPRINTFRAME  Men sizes 7-13 Women sizes 8-13"
+						},
+						item8 : {
+							img : 'img/jesus/soccer8.jpg',
+							title : "PUMA evoSPEED 17.SL S FG",
+							cost : "200",
+							shipping : "5",
+							description : "GripTex Synthetic Upper 5.3 oz Men sizes 7-13 Women sizes 8-13"
+						},
+						item9 : {
+							img : 'img/jesus/soccer9.jpg',
+							title : "PUMA evoTOUCH",
+							cost : "275",
+							shipping : "5",
+							description : "K-leather GripTex evoKNIT Men sizes 7-13 Women sizes 8-13"
+						},
+						item10 : {
+							img : 'img/jesus/soccer10.jpg',
+							title : "PUMA evoPOWER Vigor 1",
+							cost : "220",
+							shipping : "5",
+							description : "Spandex Sock GripTex evoKNIT Men sizes 7-13 Women sizes 8-13"
+						},
+						item11 : {
+							img : 'img/jesus/soccer11.jpg',
+							title : "UEFA Champions League Finale Cardiff Official Match Ball ",
+							cost : "160",
+							shipping : "5",
+							description : "100% PU leather FIFA Pro quality Seamless Surface Size-5"
+						},
+						item12 : {
+							img : 'img/jesus/soccer12.jpg',
+							title : "Nike Ordem IV",
+							cost : "160",
+							shipping : "5",
+							description : "Nike Aerowtrac grooves FIFA Pro quality 12 Panels Fuse-welded synthetic leather casing Size-5"
+						},
+						item13 : {
+							img : 'img/jesus/soccer13.jpg',
+							title : "Select Brillant Super FIFA Soccer Ball White",
+							cost : "145",
+							shipping : "5",
+							description : "COVER-Specially developed Teijin microfiber for lively bounce.BLADDER- Latex. FIFA approved"
 						}
 					}
 				]
@@ -198,17 +259,27 @@ $( document ).ready(function() {
 
 		document.body.style.backgroundImage = "url('img/yeslie/productAnimeBackground.jpg')"
 		$('#heading').text("Anime Products");
+		$('#PRODUCT-ITEMS').css({
+			'opacity' : '.8'
+		})
 	}
 	else if(parseInt(product_type) === 1) {
 
 		document.body.style.backgroundImage = "url('img/brian/productChessBackground.jpg')";
 		$('#heading').text("Chess Products");
+		$('#PRODUCT-ITEMS').css({
+			'opacity' : '.9'
+		})
 	}
 	else if(parseInt(product_type) === 2) {
 
-		document.body.style.backgroundImage = "url('https://3.bp.blogspot.com/-DL_ca_rNsR4/UtJsHtEGMLI/AAAAAAAAGcw/fg9IYye7Sf8/s1600/Dark-BG-star-tiles-small-texture-HD-background-pictures-for-websites.jpg')";
+		document.body.style.backgroundImage = "url('https://www.eighty8.be/sites/default/files/media/kvcwingene-background.jpg')";
 		$('#heading').text("Soccer Products");
+		$('#PRODUCT-ITEMS').css({
+			'opacity' : '.95'
+		})
 	}
+
 	for(var i = 0;i < productLength;++i){
 		var item = 'item' + (i + 1);
 		//console.log(item)
