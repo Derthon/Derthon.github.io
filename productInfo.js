@@ -156,35 +156,35 @@
 							title : "Mercurial Superfly V",
 							cost : "300",
 							shipping : "5",
-							description : "Dynamic FIt Collar NIKE GRIP SYSTEM 3D SPEED PLATE All Condition Control Men sizes 7-13 Women sizes 8-13"
+							description : "Dynamic Fit Collar NIKE Grip System 3D Speed Plate All Condition Control Men sizes 7-13 Women sizes 8-13"
 						},
 						item3 : {
 							img : 'img/jesus/soccer3.JPG',
 							title : "Magista Obra II",
 							cost : "300",
 							shipping : "5",
-							description : "Dynamic FIt Collar Rotational forefoot zone Textured upper enhances touch All Condition Control Men sizes 7-13 Women sizes 8-13"
+							description : "Dynamic Fit Collar Rotational forefoot zone Textured upper enhances touch All Condition Control Men sizes 7-13 Women sizes 8-13"
 						},
 						item4 : {
 							img : 'img/jesus/soccer4.JPG',
 							title : "Hypervenom Phantom 3",
 							cost : "300",
 							shipping : "5",
-							description : "Dynamic FIt Collar CHEVRON STUDS HYPERREACTIVE TEXTURE All Condition Control Men sizes 7-13 Women sizes 8-13"
+							description : "Dynamic Fit Collar CHEVRON STUDS HYPERREACTIVE Texture All Condition Control Men sizes 7-13 Women sizes 8-13"
 						},	
 						item5 : {
 							img : 'img/jesus/soccer5.JPG',
 							title : "X 17+ PureChaos",
 							cost : "300",
 							shipping : "5",
-							description : "knit mid-cut design SPRINTFRAME outsole NON STOP GRIP Men sizes 7-13 Women sizes 8-13"
+							description : "knit mid-cut design SPRINTFRAME outsole Non-Stop Grip Men sizes 7-13 Women sizes 8-13"
 						},
 						item6 : {
 							img : 'img/jesus/soccer6.JPG',
 							title : "Ace 17+ PureControl",
 							cost : "300",
 							shipping : "5",
-							description : "SPRINTFRAME Primeknit upper NON STOP GRIP Men sizes 7-13 Women sizes 8-13"
+							description : "SPRINTFRAME Primeknit upper Non-Stop Grip Men sizes 7-13 Women sizes 8-13"
 						},
 						item7 : {
 							img : 'img/jesus/soccer7.JPG',
