@@ -215,7 +215,7 @@
 							description : "Spandex Sock GripTex evoKNIT Men sizes 7-13 Women sizes 8-13"
 						},
 						item11 : {
-							img : 'img/jesus/soccer11.JPG',
+							img : 'img/jesus/soccer11.jpg',
 							title : "UEFA Champions League Finale Cardiff Official Match Ball ",
 							cost : "160",
 							shipping : "5",
