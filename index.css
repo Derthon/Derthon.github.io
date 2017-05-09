@@ -1,0 +1,247 @@
+			html{
+				background-color: grey;
+				/*background: url("http://www.silverliningnews.com/wp-content/uploads/2014/03/bigstock-an-image-of-a-grey-smooth-brus-26801582.jpg");*/
+				text-align: center;
+				overflow-x: hidden;
+				overflow-y: auto;
+			}
+			body{
+				margin: 0 0 0 0;
+				border: 1px solid black;
+				width: 100%;
+				height: 100%;
+				background-image: url("https://blog.dlvrit.com/wp-content/uploads/Background-Noise-App-Thunder-695x365.jpg"); /* #DB54FF => purple*/
+				background-repeat: no-repeat;
+				background-size: 100% 120vh;
+				overflow-x: hidden;
+			}
+			div#container-login-Btn{
+				padding-top: 6px; 
+				text-align: center;
+				background: black;
+				min-height: 30px;
+				min-width: 90px;
+				border-radius: 100px;
+			}
+			div#container-login-Btn:hover{
+				background: LightGreen;
+				color: black;
+			}
+			#loginBtn, #registerBtn{
+				max-width: 5vw;
+				max-height: 3vh;
+				color: white;
+				font-weight: bold;
+				font-size: 1.2em;
+				font-style: italic;
+				text-decoration: none;
+				padding-top: 7px;
+				font-family: Georgia, "Times New Roman", serif;
+
+			}
+			h1.titleScreen{
+				font-family: Georgia, "Times New Roman", serif;
+				width: 50%;
+				height: 5vh;
+				/*display: inline;*/
+				color: black;
+				/*border: 1px dashed black;*/
+				margin: 0 auto 3%;
+				font-family: Corsiva, Georgia, "Times New Roman";
+				font-size: 2vw;
+				font-weight: strong;
+				font-style: italic;
+				letter-spacing: 8px;
+				text-decoration: none;
+			}
+			h2.titleScreen-sub-heading{
+				font-family: Georgia, "Times New Roman", serif;
+				width: 50%;
+				height: 5vh;
+				/*display: inline;*/
+				color: DarkBlue;
+				/*border: 1px dashed black;*/
+				margin: 15px auto 0;
+				font-family: Corsiva, Georgia, "Times New Roman";
+				font-size: 1.5vw;
+				font-weight: bold;
+				font-style: italic;
+				letter-spacing: 6px;
+				text-decoration: underline;
+			}
+			div.item-section-content h2.item-section-header{
+				font-family: Georgia, "Times New Roman", serif;
+				font-size: 10vw;
+				font-style: italic;
+				color: black;
+				background: transparent;
+				margin: 50px;
+				display: inline;
+				text-align: inherit;
+				text-decoration: none;
+			}
+			div.item-section-content p.item-section-description{
+				font-family: Arial, sans-serif;
+				font-size: 2em;
+				width: 40%;
+				margin: 0 auto 0;
+				color: black;
+				background: LightGrey;
+				border: 10px double black;
+				border-radius: 100px; 
+			}
+			div.item-section-content{
+				opacity: 1;
+				width: 50%;
+				height: 25vh;
+				background-color: LightGrey;
+				display: block;
+				margin: 0 auto 0;
+				border: 10px double black;
+				border-radius: 100px; 
+			}
+			table{
+				
+			}
+			tr{
+				
+			}
+			td{ 
+				text-align:center;
+			}
+			
+			div.item-section#yeslie{
+				background-image: url("img/yeslie/animeB1.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center;   
+			}
+			div.item-section#brian{
+				background-image: url("img/brian/chessImage1.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center;   
+			}
+			div.item-section#jesus{
+				
+				background-image: url("img/jesus/soccerB1.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center;   	
+			}
+			div.item-section#homeTop p{
+				font-size: 1.3vw;
+				font-family: Georgia, "Times New Roman", serif;
+				/*border: 1px dashed black;*/
+				display: block;
+				margin: 50px auto 0;
+				width: 500px;
+				height: 250px;
+				color: white;
+				font-style: italic;
+				overflow-y: auto; 
+			}
+
+			div#homeTop{
+				padding-top: 14vh;
+			}
+			div.item-section{
+				margin: 0 auto 0;
+				width: 100%;
+				height: 100vh;
+				background-color: transparent;
+				padding-top: 150px;
+				border: 2px groove white;
+			}
+			div.item-section:hover{
+				filter: brightness(92%);
+			}
+			.item-section-button{
+				height: 100px;
+				width: 100px;
+				border: 1px solid black;
+				background: transparent;
+				vertical-align: middle;
+				position: absolute;
+				text-align: center;
+				font-family: Georgia, "Times New Roman", serif;
+			}
+			.item-section-button:hover{
+				background: black;
+				color: white;
+				border-color: white;
+			}
+			#homeLogo{
+				width: 30%;
+				height: 40vh;
+				border-radius: 100px; 
+				box-shadow: 10px 10px 10px grey;
+				margin: 50px auto auto;
+			}
+			#homeLogo:hover{
+				filter: brightness(200%);
+			}
+			div#pageCredits{
+				background: grey;
+				margin: 0 auto 0;
+				color: white;
+				padding: 0 auto 0;
+				height: 20px;
+				width: 100%;
+			}
+			/*This style is temp.*/
+			div#homeTop{
+				border: 2px groove transparent;
+			}
+
+			nav#navagation-bar {
+				margin: 0 auto 0px;
+				width: 101%;
+				height: 5vh;
+				float: top;
+				position: fixed;
+				z-index: 2;
+			}
+			ul{
+				margin-top: 0; 	
+				padding-right: 9%;
+				text-align: center;
+				font-size: 2vw;
+				background: black;
+				list-style-type: none;
+				padding-top: 1vh;
+				padding-bottom: 3vh;
+			}
+			li{
+				color: white;
+				margin: 0 2vw 0;
+				border-radius: 1000px;
+				text-align: center;
+				max-width: 20vh;
+				padding: 1vh 1vh 0;
+				vertical-align: middle;
+				height: 7vh;
+				display: inline-block;
+				/*background: #1AB202;*/
+				background: transparent;
+			}
+			input{
+				height: 75%;
+				width: 25vh;
+				border: 1px solid white;
+				/*border-radius: 100px;*/
+				font-family: "Comic Sans MS";
+				font-size: 1.1em;
+				text-align: center;
+				margin: 0;
+				color: white;
+				background: #04E000;
+				text-decoration: none;
+				padding-bottom: 7vh;
+			}
+			input:hover{
+				border: 1px solid black;
+				background: white;
+				color: black;
+				box-shadow: 0 0 1000px yellow;
+			}
