@@ -36,6 +36,7 @@ $( document ).ready(function() {
 
 	var div = document.createElement('DIV');
 	div.setAttribute('id','productDiv');
+
 	body.appendChild(div);
 
 	var eleImg = document.createElement('IMG');
@@ -55,7 +56,17 @@ $( document ).ready(function() {
 	var text = "<b>Cost:</b> $" + items[productCat][productItem].cost + "<br> <b>Shipping: </b> $" + items[productCat][productItem].shipping + " <br> <b>Description: </b>" +  items[productCat][productItem].description;
 	par.innerHTML = text;
 
+	var footer = document.createElement('FOOTER');
+	body.appendChild(footer);
 
+	var footerDiv = document.createElement('DIV');
+	footerDiv.setAttribute('id','pageCredits');
+	footer.appendChild(footerDiv)
+
+	var footerDivP = document.createElement('P');
+	footerDivP.setAttribute('title', 'Brian Made This Entire Page!');
+	footerDiv.appendChild(footerDivP);
+	footerDivP.innerHTML = '&copy; 2016-2017 JBY.com Inc. or its affiates';
 
 
 

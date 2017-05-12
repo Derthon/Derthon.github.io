@@ -6,7 +6,7 @@ html{
 }
 body{
 	overflow-x: hidden;
-	overflow-y: hidden;
+	overflow-y: auto;
 	float: top;
 	width: 100%;
 	height: 100vh;
@@ -74,7 +74,7 @@ input:hover{
 	padding: 3vh;
 	opacity: .9;
 	width: 90vw;
-	height: 85vh;
+	height: 75vh;
 	margin: 10vh auto 0;
 	border: 1px solid black;
 	overflow-y: hidden;
@@ -113,4 +113,14 @@ b{
 	font-size: 2.1vw;
 	font-family: Georgia, "Times New Roman", serif;
 	font-style: italic;
+}
+div#pageCredits{
+	text-align: center;
+	align-content: center;
+	background: grey;
+	margin: 0 auto 0;
+	color: white;
+	padding: 0 auto 0;
+	height: 20px;
+	width: 100%;
 }
