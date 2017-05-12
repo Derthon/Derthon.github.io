@@ -2,12 +2,30 @@
 <html>
 <head>
 	<title>Buy Page</title>
+	<link rel="shortcut icon" type="image/x-icon" href="img/siteIcon.ico" />
+	<link rel="stylesheet" type="text/css" href="buyPage.css">
 	<script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-	<script type="text/javascript">
-		
-	</script>
+	<script type="text/javascript" src="buypage.js"></script>
+  <script type="text/javascript" src="products.js"></script>
 </head>
-<body>
-	<h1>Hello</h1>
+
+<body id="body">
+  <nav id="navagation-bar">
+    <ul>
+      <li><a href="index.html"><input type="button" value="Home"></a></li>
+      <li><a href="productPage.html?productType=0"><input type="button" value="Anime" id="animeLink"></a></li>
+      <li><a href="productPage.html?productType=1"><input type="button" value="Chess" id="chessLink"></a></li>
+      <li><a href="productPage.html?productType=2"><input type="button" value="Soccer" id="soccerLink"></a></li>
+    </ul>
+  </nav>
+<!--
+  <div id="productDiv">
+    <img id="productImage" src="">
+    <h1 id="product-title"></h1>
+    <p id="product-description"></p>
+    
+  </div>
+-->
+
 </body>
 </html>

@@ -23,6 +23,10 @@ nav#navagation-bar {
 	float: top;
 	position: fixed;
 	z-index: 2;
+	transition: all .5s ease-in-out;
+}
+nav.hidden{
+	transform: translate3d(0,-600%,0);
 }
 ul{
 	margin-top: 0; 	
