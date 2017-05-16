@@ -5,84 +5,131 @@ var items = [
 							title : "Mikasa Ackerman Action Figure",
 							cost : "349.99",
 							shipping : "5",
-							description : "Dimensions:10 x 8 x 4 inches."
+							description : "Dimensions:10 x 8 x 4 inches Two swords in hand, Mikasa raises one weapon\
+							high above her head with the other by her side as she looks back at a Titan, all the while\
+							bounding through the trees. Her Survey Corps outfit has all the details you'll recognize from\
+							the anime and the complex 3D Maneuver Gear looks awesome. Mikasa even offers you display options\
+							with her removable cape! Sculpted by Taketo Ogasawara, Mikasa Ackerman is nearly 14 Inch tall (1/8 scale)\
+							to the tip of her outstretched sword."
 						},
 						item2 : {
 							img : 'img/yeslie/anime2.jpg',
 							title : "Kakashi Hatake Action Figure",
 							cost : "220.00",
 							shipping : "5.49",
-							description : "Dimensions: 10 x 3 x 3 inches"
+							description : "Dimensions: 10 x 3 x 3 inches From Mega House. From the hit manga and anime series!\
+							 Dressed in his Anbu gear and posed to strike, Kakashi stands just under 10\" H!"
 						},
 						item3 : {
 							img : 'img/yeslie/anime3.jpg',
 							title : "Uchiha Clan Sweater ",
 							cost : "55.99 ",
 							shipping : "5",
-							description : "Sizes: Small- Xx-Large. Color: Black, Grey, Red"
+							description : "Sizes: Small- Xx-Large Color: Black, Grey, Red\
+							HOLRAN Anime Naruto Uchiha Sharingan Thicken Jacket Cosplay Hoodie\
+							Material:high quality Cotton+Polyester\
+							size:Asian size,please choose one size bigger than US size,if you couldn't ensure the size"
 						},
 						item4 : {
 							img : 'img/yeslie/anime4.jpg',
 							title : "Akatsuki Cosplay Rings",
 							cost : "33.39",
 							shipping : "5",
-							description : "Pieces: 10"
+							description : "Pieces: 10\
+							Includes all 10 Akatsuki members rings, detailed to resemble the actual design.\
+							 Made of High Quality Material:uniform cloth/fake leather\
+							No size"
 						},	
 						item5 : {
 							img : 'img/yeslie/anime5.jpg',
 							title : "Attack On Titan No Regrets Volume 1 & 2",
 							cost : "15.98",
 							shipping : "5",
-							description : "Print Length: 192 pages each"
+							description : "Print Length: 192 pages     Publisher: Kodansha (September 30, 2014)   Publication Date: September 1, 2015\
+							Language: English 2nd Print Length: 192 pages   Publisher: Kodansha (September 30, 2014) Publication Date: September 1, 2015\
+							Language: English the Underground, where humans are born and die surrounded by the garbage the Capital throws away. Here,\
+							the criminal Levi survives on his wits and agility. But when these two ambitious men cross paths, who will prove himself stronger?"
 						},
 						item6 : {
 							img : 'img/yeslie/anime6.jpg',
 							title : "Attack On Titan Key-Chain",
 							cost : "2.09",
 							shipping : "3.99",
-							description : "Size :about 10cm Material : Alloy"
+							description : "Size :about 10cm Material : Alloy Includes the The Survey Corps,\
+							The Garrison, The Military Police, and Training symbols. Feel like you are a part\
+							of each one and choose the one you will represent. "
 						},
 						item7 : {
 							img : 'img/yeslie/anime7.jpg',
 							title : "Dragon Ball Cell Action Figure",
 							cost : "57.99",
 							shipping : "5",
-							description : "Dimensions: 2 x 3 x 7 inches"
+							description : "Dimensions: 2 x 3 x 7 inches Dr. Gero would be pleased with this perfectly\
+							updated perfect Cell -premium color edition- from s.H.Figure. Cell's complex design is meticulously\
+							painted and Cell comes with a variety of option parts to recreate your favorite scenes from the anime.\
+							Set includes interchangeable hands (x6), 2 interchangeable facial expressions, folded arm parts, and effect part with supports."
 						},
 						item8 : {
 							img : 'img/yeslie/anime8.jpg',
-							title : "Victoriia's house Dragon Ball Z Action Figures Dragon Anime + 7 pcs PVC Balls",
+							title : "Dragon Ball Z Action Figures Dragon",
 							cost : "51.50",
 							shipping : "5",
-							description : "Dragon Size 15cm (5.90 inch) high. Dragon Ball Size 4.3cm (1.69 inch)diameter."
+							description : "Dragon Size 15cm (5.90 inch) high.\
+							Dragon Ball Size 4.3cm (1.69 inch)diameter.\
+							As long as collecting 7 pcs (1st-7th Stars) Dragon Ball Z Stars,\
+							you can gather huge power to call out the Shenron Dragon. Wish to\
+							the Dragon God, you will achieve any desire : )\
+							Who gets it, then gets dream : )\
+							Acrylic Display Stand For Dragonball 1st-7th Crystal Ball & Shenron Set: Shenron Height:\
+							6.1 inch; Shelf Size: 6.3 x 6.3 x 1.2 inch (need simple installation), Crystal Dragon Ball\
+							Diameter：1.7 inch x 7 pcs, Small Dragon Eggs Diameter：1/4 inch x 7 pcs"
 						},
 						item9 : {
 							img : 'img/yeslie/anime9.jpg',
 							title : "Dragon Ball Z: Movie Pack Collection Three",
 							cost : "14.99",
 							shipping : "5",
-							description : "Language: Japanese, English Subtitles: English Run Time: 210 minutes"
+							description : "Language: Japanese, English\
+							Subtitles: English\
+							Run Time: 210 minutes\
+							Broly’s Second Coming\
+							Bio-Broly\
+							Fusion Reborn:\
+							Wrath of the Dragon"
 						},
 						item10 : {
 							img : 'img/yeslie/anime10.jpg',
 							title : "One Punch man Wall Scroll ",
 							cost : "11.98",
 							shipping : "5",
-							description : "Fabric Printing Size: 22 X 33 Inches (Equal:56 X 84 CM)"
+							description : "Fabric Printing\
+							Size: 22 X 33 Inches (Equal:56 X 84 CM)\
+							No reflection,Easy to clean and Waterproof\
+							High quality,perfect gift for Anime fans or decorate your wall and make your room unique"
 						},
 						item11 : {
 							img : 'img/yeslie/anime11.jpg',
 							title : "One-Punch Man: Saitama DXF Figure",
 							cost : "24.99",
 							shipping : "5",
-							description : "Approx. Size: 3\"L x 4\"W x 5.9\"H"
+							description : "Approx. Size: 3\"L x 4\"W x 5.9\"H\
+							Officially Licensed by Banpresto\
+							Cute and collectible\
+							New and sealed inside retail packaging\
+							rom the anime series One Punch Man comes a figure of the average guy whose hobby is being a hero — Saitama!"
 						},
 						item12 : {
 							img : 'img/yeslie/anime12.jpg',
 							title : "One-Punch Man Collection 7 Books Set (Volume 1-7)",
 							cost : "29.99",
 							shipping : "5",
-							description : "Product Dimensions: 8.4 x 5.9 x 0.8 inches"
+							description : "Product Dimensions: 8.4 x 5.9 x 0.8 inches\
+							One-Punch Man Collection 7 Books Set (Volume 1-7) By ONE.\
+							Description:- One-Punch Man, Vol. 7 When aliens invade Earth,\
+							a group of Class-S heroes finally finds a way to fight back and\
+							go on the offensive. Inside the enemy mother ship, Saitama fights\
+							Boros. Faced with the alien's frightful power, he decides to get serious!\
+							What is the Earth's fate?! Books Collection One-Punch Man"
 						}
 					},
 					chess = {
@@ -91,14 +138,16 @@ var items = [
 							title : "Black Vinyl Chess Mat",
 							cost : "39.99",
 							shipping : "5",
-							description : "Full set of 32 plastic, triple weighted chess pieces with 3 3/4\" King"
+							description : "Black vinyl chess mat includes algebraic notation for game analysis – board measures 19.75 inches with 2.25 inch squares"
 						},
 						item2 : {
 							img : 'img/brian/chess2.jpg',
 							title : "20\" Vinyl roll-up chess board in black",
 							cost : "75",
 							shipping : "5",
-							description : "Tournament chess bag in black with space for pieces, board, and other supplies"
+							description : "Full set of 32 plastic, triple weighted chess pieces with 3 3/4\" King\
+							20\" Vinyl roll-up chess board in black\
+							Tournament chess bag in black with space for pieces, board, and other supplies"
 						},
 						item3 : {
 							img : 'img/brian/chess3.jpg',
@@ -119,14 +168,19 @@ var items = [
 							title : "Silicone Portable Tournament Chess Mat",
 							cost : "12.95",
 							shipping : "5",
-							description : "Dimensions 20 x 20 x 0.2 inches Color: Black, Green, Red, Blue "
+							description : "Dimensions 20 x 20 x 0.2 inches\
+							Color: Black, Green, Red, Blue\
+							Silicone Portable Tournament Chess Mat"
 						},
 						item6 : {
 							img : 'img/brian/chess6.jpg',
 							title : "20\" x 20\" green vinyl roll-up chess board with 2-1/4\" squares",
 							cost : "79.99 ",
 							shipping : "5",
-							description : "Tournament chess bag in green with space for pieces, board, clock and other supplies DGT North American chess clock 2 blue softcover spiral-bound scorebooks"
+							description : "20\" x 20\" green vinyl roll-up chess board with 2-1/4\" squares\
+							Tournament chess bag in green with space for pieces, board, clock and other supplies\
+							DGT North American chess clock\
+							2 blue softcover spiral-bound scorebooks"
 						},
 						item7 : {
 							img : 'img/brian/chess7.jpg',
@@ -140,7 +194,9 @@ var items = [
 							title : "Staunton Design Pieces",
 							cost : "15.49",
 							shipping : "5",
-							description : "Professional quality, Staunton design, triple weighted plastic pieces with felt padded bottomsThe King is 3.75 inches tall with a stable and balanced base of 1.5\" diameter. Features 4 Queens. Ideal for a chess board with squares of 2\" to 2.25\""
+							description : "Professional quality, Staunton design, triple weighted plastic pieces with felt padded bottoms\
+							The King is 3.75 inches tall with a stable and balanced base of 1.5\" diameter. Features 4 Queens. Ideal for a\
+							chess board with squares of 2\" to 2.25\""
 						}
 					},
 					soccer = {
@@ -377,20 +433,6 @@ var items = [
 							Paint tray has six round wells and four rectangular wells\
 							Has the contours of a traditional palette with thumbhole\
 							Made of molded white plastic, it is durable and easy to clean"
-						},
-						item9 : {
-							img : 'img/art/art9.jpg',
-							title : "",
-							cost : "",
-							shipping : "",
-							description : ""
-						},
-						item10 : {
-							img : 'img/art/art10.jpg',
-							title : "",
-							cost : "",
-							shipping : "",
-							description : ""
 						}
 					},
 					tech = {
