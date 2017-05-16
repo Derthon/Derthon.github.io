@@ -71,7 +71,7 @@
 			}
 			div.item-section-content h2.item-section-header{
 				font-family: Georgia, "Times New Roman", serif;
-				font-size: 10vw;
+				font-size: 6vw;
 				font-style: italic;
 				color: black;
 				background: transparent;
@@ -82,34 +82,23 @@
 			}
 			div.item-section-content p.item-section-description{
 				font-family: Arial, sans-serif;
-				font-size: 2em;
+				font-size: 2vw;
 				width: 40%;
 				margin: 0 auto 0;
 				color: black;
-				background: LightGrey;
-				border: 10px double black;
+				font-style: italic;
+				font-weight: bold;
 				border-radius: 100px; 
 			}
 			div.item-section-content{
-				opacity: 1;
+				background-color:rgba(192,192,192,0.7);
 				width: 50%;
 				height: 25vh;
-				background-color: LightGrey;
 				display: block;
 				margin: 0 auto 0;
 				border: 10px double black;
-				border-radius: 100px; 
+				border-radius: 100px;
 			}
-			table{
-				
-			}
-			tr{
-				
-			}
-			td{ 
-				text-align:center;
-			}
-			
 			div.item-section#yeslie{
 				background-image: url("img/yeslie/animeB1.jpg");
 				background-repeat: no-repeat;
@@ -128,6 +117,24 @@
 				background-repeat: no-repeat;
 				background-size: cover;
 				background-position: center center;   	
+			}
+			div.item-section#videoGames{
+				background-image: url("img/videoGames/gamesB1.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center; 
+			}
+			div.item-section#art{
+				background-image: url("img/art/artB1.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center; 
+			}
+			div.item-section#tech{
+				background-image: url("img/technology/techB1.jpg");
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center center; 
 			}
 			div.item-section#homeTop p{
 				font-size: 1.3vw;
@@ -148,10 +155,11 @@
 			div.item-section{
 				margin: 0 auto 0;
 				width: 100%;
-				height: 100vh;
+				height: 95vh;
 				background-color: transparent;
 				padding-top: 150px;
 				border: 2px groove white;
+				transition: all .5s ease-out;
 			}
 			div.item-section:hover{
 				filter: brightness(92%);
@@ -206,6 +214,7 @@
 			nav.hidden{
 				transform: translate3d(0,-600%,0);
 			}
+			
 			ul{
 				margin-top: 0; 	
 				padding-right: 9%;
@@ -239,7 +248,7 @@
 				text-align: center;
 				margin: 0;
 				color: white;
-				background: #48FF50;
+				background: #1D9DA5;
 				text-decoration: none;
 				padding-bottom: 7vh;
 			}
@@ -252,3 +261,54 @@
 			a{
 				text-decoration: none;
 			}
+			.dropbtn {
+			    background-color: #1D9DA5;
+			    color: white;
+			    padding: 16px;
+			    font-size: 16px;
+			    border: none;
+			    cursor: pointer;
+			    border: 1px solid white;
+			    height: 75%;
+				width: 25vh;
+			}
+
+			.dropdown {
+			    height: 70%;
+				width: 20vh;
+				font-family: "Comic Sans MS";
+				font-size: 1.1em;
+				text-align: center;
+				margin: -0.02vh;
+				color: white;
+				background: transparent;
+				text-decoration: none;
+				padding-bottom: 7vh;
+				display: inline-block;
+			}
+
+			.dropdown-content {
+
+			    display: none;
+			    position: absolute;
+			    background-color: #f9f9f9;
+			    min-width: 160px;
+			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			    z-index: 1;
+			}
+
+			.dropdown-content a {
+			    color: black;
+			    padding: 12px 16px;
+			    text-decoration: none;
+			    display: block;
+
+			}
+
+			.dropdown-content a:hover {background-color: #f1f1f1}
+
+			.dropdown:hover .dropdown-content {
+			    display: block;
+			}
+
+			

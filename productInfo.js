@@ -14,8 +14,7 @@ $( document ).ready(function() {
 	window.onscroll = function() {scrollTest()};
 
       function scrollTest() {
-        console.log("hello");
-          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 || document.getElementById('PRODUCT-ITEMS').scrollTop > 50) {
+          if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
               $('nav').addClass('hidden');
           } else {
               $('nav').removeClass('hidden');
@@ -32,7 +31,7 @@ $( document ).ready(function() {
 		$('#heading').text("Anime Products");
 		$('#PRODUCT-ITEMS').css({
 			'opacity' : '.8'
-		})
+		});
 	}
 	else if(parseInt(product_type) === 1) {
 
@@ -40,7 +39,7 @@ $( document ).ready(function() {
 		$('#heading').text("Chess Products");
 		$('#PRODUCT-ITEMS').css({
 			'opacity' : '.9'
-		})
+		});
 	}
 	else if(parseInt(product_type) === 2) {
 
@@ -48,12 +47,36 @@ $( document ).ready(function() {
 		$('#heading').text("Soccer Products");
 		$('#PRODUCT-ITEMS').css({
 			'opacity' : '.95'
-		})
+		});
+	}
+	else if(parseInt(product_type) === 3){
+
+		document.body.style.backgroundImage = "url('img/videoGames/productvideoGamesBackground.jpg')";
+		$('#heading').text("Video Game Products");
+		$('#PRODUCT-ITEMS').css({
+			'opacity' : '.95'
+		});
+	}
+	else if(parseInt(product_type) === 4){
+
+		document.body.style.backgroundImage = "url('img/art/productArtBackground.jpg')";
+		$('#heading').text("Art Products");
+		$('#PRODUCT-ITEMS').css({
+			'opacity' : '.95'
+		});
+	}
+	else if(parseInt(product_type) === 5){
+
+		document.body.style.backgroundImage = "url('img/technology/productTechBackground.jpg')";
+		$('#heading').text("Tech Products");
+		$('#PRODUCT-ITEMS').css({
+			'opacity' : '.95'
+		});
 	}
 
 	for(var i = 0;i < productLength;++i){
 		var item = 'item' + (i + 1);
-		//console.log(item)
+		//console.log(i);
 
 		var div = document.createElement('DIV');
 		div.setAttribute('class','product-section');
@@ -78,7 +101,14 @@ $( document ).ready(function() {
 
 		var p = document.createElement('P');
 		div.appendChild(p);
-		var text = "<b>Cost:</b> $" + items[product_type][item].cost + "<br> <b>Shipping: </b> $" + items[product_type][item].shipping + " <br> <b>Description: </b>" +  items[product_type][item].description;
+		var maxLength = 140;
+		if(items[product_type][item].description.length >= maxLength) {
+			var description = "" + items[product_type][item].description.substring(0,maxLength) + "...";
+		}
+		else {
+			var description = items[product_type][item].description;
+		}	
+		var text = "<b>Cost:</b> $" + items[product_type][item].cost + "<br> <b>Shipping: </b> $" + items[product_type][item].shipping + " <br> <b>Description: </b>" +  String(description);
 		p.innerHTML = text;
 		
 		//mainDiv.innerHTML += '<hr>';

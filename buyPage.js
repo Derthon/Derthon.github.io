@@ -27,6 +27,18 @@ $( document ).ready(function() {
 
 		document.body.style.backgroundImage = "url('img/jesus/productSoccerBackground.jpg')";
 	}
+	else if(parseInt(productCat) === 3) {
+
+		document.body.style.backgroundImage = "url('img/videoGames/productvideoGamesBackground.jpg')";
+	}
+	else if(parseInt(productCat) === 4) {
+
+		document.body.style.backgroundImage = "url('img/art/productArtBackground.jpg')";
+	}
+	else if(parseInt(productCat) === 5) {
+
+		document.body.style.backgroundImage = "url('img/technology/productTechBackground.jpg')";
+	}
 
 	console.log('Category: ' + productCat);
 	console.log('Item: ' + productItem);

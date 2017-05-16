@@ -7,6 +7,7 @@
 	<link rel="shortcut icon" type="image/x-icon" href="img/siteIcon.ico" />
 	<link href="index.css" rel="stylesheet" type="text/css" />
 	<script type="text/javascript" src="navBar.js"></script>
+	<script type="text/javascript" src="productInfo.js"></script>
 </head>
 <body align="center" id="itemBoxes">
 	<nav id="navagation-bar">
@@ -15,27 +16,18 @@
 			<li><a href="productPage.html?productType=0"><input type="button" value="Anime" id="animeLink"></a></li>
 			<li><a href="productPage.html?productType=1"><input type="button" value="Chess" id="chessLink"></a></li>
 			<li><a href="productPage.html?productType=2"><input type="button" value="Soccer" id="soccerLink"></a></li>
+			<li><a href="">
+			<div class="dropdown">
+				  <input type="button" value="Other">
+				  <div class="dropdown-content">
+					   <a href="productPage.html?productType=3">Video Games</a>
+					   <a href="productPage.html?productType=4">Art Supplies</a>
+					   <a href="productPage.html?productType=5">Technology</a>
+				  </div>
+			</div>
+				</a></li>
 		</ul>
 	</nav>
-	<!--<a href="productPage.html">Next</a><a href="https://docs.google.com/presentation/d/1PrH5OD7PlN98EMSuHZqceoiclm56ROcOk1C0ZpOURCs/edit#slide=id.p" target="_blank">Presentation</a>-->
-	<!--
-		<table align="right" id="logRegBtn">
-			<tr>
-				<td>
-					<div id="container-login-Btn">
-						<a id="loginBtn" href="login.html"> Login </a>
-					</div>
-				</td>
-				<td>
-					<div id="container-login-Btn">
-						<a id="registerBtn" href="register.html"> Register </a>
-					</div>
-				</td>
-			</tr>
-		</table>
-	-->
-	<!--<marquee scrollamount="10" style="font-size: 20px; background: green; color: lightgreen;"><pre>Welcome to this website!!!!</pre>	</marquee>-->
-
 	<section class="container-items">
 		<div id="homeTop" class="item-section">
 			<h1 class="titleScreen" align="center">JBY <br> Bringing Passions Together</h1>
@@ -44,7 +36,7 @@
 				<p title="Quote from Yeslie"> There are interests that define our <br>uniqueness and bring us closer.<br> Memories of our childhood and <br>Dreams of the future,<br> Comes together overlooking differences.</p>
 			</div>
 			<a href="productPage.html?productType=0">
-			<div id="yeslie" title="Shop for Anime" class="item-section" onclick="clickRun(0)">
+			<div id="yeslie" title="Shop for Anime" class="item-section">
 				<div class="item-section-content">
 					<h2 class="item-section-header">Anime</h2>
 					<p class="item-section-description">Get your weeb on!</p>
@@ -52,7 +44,7 @@
 			</div>
 			</a>
 			<a href="productPage.html?productType=1">
-			<div id="brian" title="Shop for Chess Products" class="item-section" onclick="clickRun(1)">
+			<div id="brian" title="Shop for Chess Products" class="item-section">
 				<div class="item-section-content">
 					<h2 class="item-section-header">Chess</h2>
 					<p class="item-section-description">Get your geek on!</p>
@@ -60,9 +52,33 @@
 			</div>
 			</a>
 			<a href="productPage.html?productType=2">
-			<div id="jesus" title="Shop for Soccer Products" class="item-section" onclick="clickRun(2)">
+			<div id="jesus" title="Shop for Soccer Products" class="item-section">
 				<div class="item-section-content">
 					<h2 class="item-section-header">Soccer</h2>
+					<p class="item-section-description">Get your game on!</p>
+				</div>
+			</div>
+			</a>
+			<a href="productPage.html?productType=3">
+			<div id="videoGames" title="Shop for Soccer Products" class="item-section">
+				<div class="item-section-content">
+					<h2 class="item-section-header">Games</h2>
+					<p class="item-section-description">Get your game on!</p>
+				</div>
+			</div>
+			</a>
+			<a href="productPage.html?productType=4">
+			<div id="art" title="Shop for Soccer Products" class="item-section">
+				<div class="item-section-content">
+					<h2 class="item-section-header">Art Supplies</h2>
+					<p class="item-section-description">Get your game on!</p>
+				</div>
+			</div>
+			</a>
+			<a href="productPage.html?productType=5">
+			<div id="tech" title="Shop for Soccer Products" class="item-section">
+				<div class="item-section-content">
+					<h2 class="item-section-header">Technology</h2>
 					<p class="item-section-description">Get your game on!</p>
 				</div>
 			</div>
@@ -87,14 +103,11 @@
 					}
 					repeat();*/
 				}
-				var yeslieNum = 0;
-				var brianNum = 0;
-				var jesusNum = 0;
+				var yeslieNum,brianNum,jesusNum,videoGamesNum,artNum,techNum = 0;
+
 				setInterval(function yeslie(){
-					var yeslie;
 
-
-					yeslie = document.getElementById('yeslie');
+					var yeslie = document.getElementById('yeslie');
 
 					switch(yeslieNum){
 						case 0:
@@ -118,12 +131,9 @@
 						yeslie.style.backgroundImage = "url('img/yeslie/animeB1.jpg')";
 					}
 				}, 4000);
-				setInterval(function brian(image){
+				setInterval(function brian(){
 
-					var brian;
-
-
-					brian = document.getElementById('brian');
+					var brian = document.getElementById('brian');
 
 
 					switch(brianNum){
@@ -151,10 +161,8 @@
 
 				setInterval(function jesus(){
 
-					var jesus;
 
-
-					jesus = document.getElementById('jesus');
+					var jesus = document.getElementById('jesus');
 
 					switch(jesusNum){
 						case 0:
@@ -182,6 +190,89 @@
 						jesus.style.backgroundImage = "url('img/jesus/soccerB1.jpg')";
 					}
 
+				}, 4000);
+
+				setInterval(function videoGames(){
+
+					var videoGames = document.getElementById('videoGames');
+
+					switch(videoGamesNum){
+						case 0:
+						videoGamesNum += 1;
+						videoGames.style.backgroundImage = "url('img/videoGames/gamesB2.jpg')";
+						break;
+						case 1:
+						videoGamesNum += 1;
+						videoGames.style.backgroundImage = "url('img/videoGames/gamesB3.jpg')";
+						break;
+						case 2:
+						videoGamesNum += 1;
+						videoGames.style.backgroundImage = "url('img/videoGames/gamesB4.jpg')";
+						break;
+						case 3:
+						videoGamesNum = 0;
+						videoGames.style.backgroundImage = "url('img/videoGames/gamesB1.jpg')";
+						break;
+						default:
+						videoGamesNum = 0;
+						videoGames.style.backgroundImage = "url('img/videoGames/gamesB1.jpg')";
+					}
+
+				}, 4000);
+
+
+				setInterval(function art(){
+
+					var art = document.getElementById('art');
+
+					switch(artNum){
+						case 0:
+						artNum += 1;
+						art.style.backgroundImage = "url('img/art/artB2.jpg')";
+						break;
+						case 1:
+						artNum += 1;
+						art.style.backgroundImage = "url('img/art/artB3.jpg')";
+						break;
+						case 2:
+						artNum += 1;
+						art.style.backgroundImage = "url('img/art/artB4.jpg')";
+						break;
+						case 3:
+						artNum = 0;
+						art.style.backgroundImage = "url('img/art/artB1.jpg')";
+						break;
+						default:
+						artNum = 0;
+						art.style.backgroundImage = "url('img/art/artB1.jpg')";
+					}
+				}, 4000);
+
+				setInterval(function tech(){
+
+					var tech = document.getElementById('tech');
+
+					switch(techNum){
+						case 0:
+						techNum += 1;
+						tech.style.backgroundImage = "url('img/technology/techB2.jpg')";
+						break;
+						case 1:
+						techNum += 1;
+						tech.style.backgroundImage = "url('img/technology/techB3.jpg')";
+						break;
+						case 2:
+						techNum += 1;
+						tech.style.backgroundImage = "url('img/technology/techB4.jpg')";
+						break;
+						case 3:
+						techNum = 0;
+						tech.style.backgroundImage = "url('img/technology/techB1.jpg')";
+						break;
+						default:
+						techNum = 0;
+						tech.style.backgroundImage = "url('img/technology/techB1.jpg')";
+					}
 				}, 4000);
 
 		</script>
