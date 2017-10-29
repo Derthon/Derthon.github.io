@@ -14,8 +14,278 @@
 		}
 	</style>
 </head>
+<<<<<<< HEAD
 <body>
 	<h1 id="header" align="center">Page will be taken down after our Java I class.</h1>
 	<object width="100%" height="700" data="javaProgrammingBook.pdf"></object>
+=======
+<body align="center" id="itemBoxes">
+	<nav id="navagation-bar">
+		<ul>
+			<li><a href="index.html"><input type="button" value="Home"></a></li>
+			<li><a href="productPage.html?productType=0"><input type="button" value="Anime" id="animeLink"></a></li>
+			<li><a href="productPage.html?productType=1"><input type="button" value="Chess" id="chessLink"></a></li>
+			<li><a href="productPage.html?productType=2"><input type="button" value="Soccer" id="soccerLink"></a></li>
+			<li><a href="">
+			<div class="dropdown">
+				  <input type="button" value="Other">
+				  <div class="dropdown-content">
+					   <a href="productPage.html?productType=3">Video Games</a>
+					   <a href="productPage.html?productType=4">Art Supplies</a>
+					   <a href="productPage.html?productType=5">Technology</a>
+				  </div>
+			</div>
+				</a></li>
+		</ul>
+	</nav>
+	<section class="container-items">
+		<div id="homeTop" class="item-section">
+			<h1 class="titleScreen" align="center">JBY <br> Bringing Passions Together</h1>
+			<h2 class="titleScreen-sub-heading" align="center">Search and Buy your <br> Interest Merchandise.</h1>
+				<img id="homeLogo" title="JBY Logo" src="img/siteLogo.png" width="500px" height="360px" alt="Image Not Found">
+				<p title="Quote from Yeslie"> There are interests that define our <br>uniqueness and bring us closer.<br> Memories of our childhood and <br>Dreams of the future,<br> Comes together overlooking differences.</p>
+			</div>
+			<a href="productPage.html?productType=0">
+			<div id="yeslie" title="Shop for Anime" class="item-section">
+				<div class="item-section-content">
+					<h2 class="item-section-header">Anime</h2>
+					<p class="item-section-description">Get your weeb on!</p>
+				</div>
+			</div>
+			</a>
+			<a href="productPage.html?productType=1">
+			<div id="brian" title="Shop for Chess Products" class="item-section">
+				<div class="item-section-content">
+					<h2 class="item-section-header">Chess</h2>
+					<p class="item-section-description">Get your geek on!</p>
+				</div>
+			</div>
+			</a>
+			<a href="productPage.html?productType=2">
+			<div id="jesus" title="Shop for Soccer Products" class="item-section">
+				<div class="item-section-content">
+					<h2 class="item-section-header">Soccer</h2>
+					<p class="item-section-description">Get your game on!</p>
+				</div>
+			</div>
+			</a>
+			<a href="productPage.html?productType=3">
+			<div id="videoGames" title="Shop for Soccer Products" class="item-section">
+				<div class="item-section-content">
+					<h2 class="item-section-header">Games</h2>
+					<p class="item-section-description">Play Beyond!</p>
+				</div>
+			</div>
+			</a>
+			<a href="productPage.html?productType=4">
+			<div id="art" title="Shop for Soccer Products" class="item-section">
+				<div class="item-section-content">
+					<h2 class="item-section-header">Art Supplies</h2>
+					<p class="item-section-description">Become Picasso!</p>
+				</div>
+			</div>
+			</a>
+			<a href="productPage.html?productType=5">
+			<div id="tech" title="Shop for Soccer Products" class="item-section">
+				<div class="item-section-content">
+					<h2 class="item-section-header">Technology</h2>
+					<p class="item-section-description">Newest Innovations!</p>
+				</div>
+			</div>
+			</a>
+		</section>
+		<footer>
+			<div id="pageCredits">
+				<p title="Brian Made This Entire Page!">&copy; 2016-2017 JBY.com Inc. or its affiates</p>
+			</div>
+			<a id="startTop" href="index.html#itemBoxes"></a>
+			<a id="repeat" href="https://i.ytimg.com/vi/0vxCFIGCqnI/maxresdefault.jpg" target="_blank">
+			<a id="toProduct" href="productPage.html"></a>
+		</footer>
+
+		<script type="text/javascript">
+
+				window.onload =function(){
+					window.location = document.getElementById('startTop').href;
+					/*function repeat(){
+						window.location = document.getElementById('repeat').href;
+						repeat();
+					}
+					repeat();*/
+				}
+				var yeslieNum,brianNum,jesusNum,videoGamesNum,artNum,techNum = 0;
+
+				setInterval(function yeslie(){
+
+					var yeslie = document.getElementById('yeslie');
+
+					switch(yeslieNum){
+						case 0:
+						yeslieNum += 1;
+						yeslie.style.backgroundImage = "url('img/yeslie/animeB2.jpg')";
+						break;
+						case 1:
+						yeslieNum += 1;
+						yeslie.style.backgroundImage = "url('img/yeslie/animeB3.jpg')";
+						break;
+						case 2:
+						yeslieNum += 1;
+						yeslie.style.backgroundImage = "url('img/yeslie/animeB4.jpg')";
+						break;
+						case 3:
+						yeslieNum = 0;
+						yeslie.style.backgroundImage = "url('img/yeslie/animeB1.jpg')";
+						break;
+						default:
+						yeslieNum = 0;
+						yeslie.style.backgroundImage = "url('img/yeslie/animeB1.jpg')";
+					}
+				}, 4000);
+				setInterval(function brian(){
+
+					var brian = document.getElementById('brian');
+
+
+					switch(brianNum){
+						case 0:
+						brianNum += 1;
+						brian.style.backgroundImage = "url('img/brian/chessImage2.jpg')";
+						break;
+						case 1:
+						brianNum += 1;
+						brian.style.backgroundImage = "url('img/brian/chessImage3.jpg')";
+						break;
+						case 2:
+						brianNum += 1;
+						brian.style.backgroundImage = "url('img/brian/chessImage4.jpg')";
+						break;
+						case 3:
+						brianNum = 0;
+						brian.style.backgroundImage = "url('img/brian/chessImage1.jpg')";
+						break;
+						default:
+						brianNum = 0;
+						brian.style.backgroundImage = "url('img/brian/chessImage1.jpg')";
+					}
+				}, 4000);
+
+				setInterval(function jesus(){
+
+
+					var jesus = document.getElementById('jesus');
+
+					switch(jesusNum){
+						case 0:
+						jesusNum += 1;
+						jesus.style.backgroundImage = "url('img/jesus/soccerB2.jpg')";
+						break;
+						case 1:
+						jesusNum += 1;
+						jesus.style.backgroundImage = "url('img/jesus/soccerB3.jpg')";
+						break;
+						case 2:
+						jesusNum += 1;
+						jesus.style.backgroundImage = "url('img/jesus/soccerB4.jpg')";
+						break;
+						case 3:
+						jesusNum += 1;
+						jesus.style.backgroundImage = "url('img/jesus/soccerB5.jpg')";
+						break;
+						case 4:
+						jesusNum = 0;
+						jesus.style.backgroundImage = "url('img/jesus/soccerB1.jpg')";
+						break;
+						default:
+						jesusNum = 0;
+						jesus.style.backgroundImage = "url('img/jesus/soccerB1.jpg')";
+					}
+
+				}, 4000);
+
+				setInterval(function videoGames(){
+
+					var videoGames = document.getElementById('videoGames');
+
+					switch(videoGamesNum){
+						case 0:
+						videoGamesNum += 1;
+						videoGames.style.backgroundImage = "url('img/videoGames/gamesB2.jpg')";
+						break;
+						case 1:
+						videoGamesNum += 1;
+						videoGames.style.backgroundImage = "url('img/videoGames/gamesB3.jpg')";
+						break;
+						case 2:
+						videoGamesNum += 1;
+						videoGames.style.backgroundImage = "url('img/videoGames/gamesB4.jpg')";
+						break;
+						case 3:
+						videoGamesNum = 0;
+						videoGames.style.backgroundImage = "url('img/videoGames/gamesB1.jpg')";
+						break;
+						default:
+						videoGamesNum = 0;
+						videoGames.style.backgroundImage = "url('img/videoGames/gamesB1.jpg')";
+					}
+
+				}, 4000);
+
+
+				setInterval(function art(){
+
+					var art = document.getElementById('art');
+
+					switch(artNum){
+						case 0:
+						artNum += 1;
+						art.style.backgroundImage = "url('img/art/artB2.jpg')";
+						break;
+						case 1:
+						artNum += 1;
+						art.style.backgroundImage = "url('img/art/artB3.jpg')";
+						break;
+						case 2:
+						artNum += 1;
+						art.style.backgroundImage = "url('img/art/artB4.jpg')";
+						break;
+						case 3:
+						artNum = 0;
+						art.style.backgroundImage = "url('img/art/artB1.jpg')";
+						break;
+						default:
+						artNum = 0;
+						art.style.backgroundImage = "url('img/art/artB1.jpg')";
+					}
+				}, 4000);
+
+				setInterval(function tech(){
+
+					var tech = document.getElementById('tech');
+
+					switch(techNum){
+						case 0:
+						techNum += 1;
+						tech.style.backgroundImage = "url('img/technology/techB2.jpg')";
+						break;
+						case 1:
+						techNum += 1;
+						tech.style.backgroundImage = "url('img/technology/techB3.jpg')";
+						break;
+						case 2:
+						techNum += 1;
+						tech.style.backgroundImage = "url('img/technology/techB4.jpg')";
+						break;
+						case 3:
+						techNum = 0;
+						tech.style.backgroundImage = "url('img/technology/techB1.jpg')";
+						break;
+						default:
+						techNum = 0;
+						tech.style.backgroundImage = "url('img/technology/techB1.jpg')";
+					}
+				}, 4000);
+
+		</script>
+>>>>>>> origin/master
 </body>
 </html>
