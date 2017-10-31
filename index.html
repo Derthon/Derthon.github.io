@@ -1,14 +1,45 @@
 <!DOCTYPE html>
+<!-- data="" -->
 <html>
 <head>
-	<title>Java Programming Book</title>
+	<title>Java Programming Books</title>
 	<link rel="shortcut icon" type="image/x-icon" href="siteIcon.ico" />
+	<script type="text/javascript">
+		function loadBooks(x) {
+			if (x == 1) {
+				console.log("1");
+				var book = document.getElementById('book1');
+				book.data = "javaProgrammingBook.pdf";
+			}
+			else if (x == 2) {
+				console.log("2");
+				var book = document.getElementById('book2');
+				book.data = "headFirstJava2ndEdition.pdf";
+			}
+			else if (x == 3) {
+				console.log("3");
+				var book = document.getElementById('book3');
+				book.data = "javaForDummies6thEdition.pdf";
+			}
+			else if (x == 4) {
+				console.log("4");
+				var book = document.getElementById('book4')
+				book.data = "javaLogicAndDesign.pdf";
+			}
+			book.width = 500;
+			book.height = 700;
+		}
+	</script>
 	<style type="text/css">
 		html {
 			background-color: black;
 		}
 		body {
 			background-color: black;
+		}
+		.notice {
+			color: red;
+			font-size: 30px;
 		}
 		h1.header {
 			color: white;
@@ -17,10 +48,12 @@
 			color: white;
 			font-size: 50px;
 		}
+
 		h3 {
-			font-size: 20px;
+			font-size: 10px;
 			color: white;
 		}
+
 		object {
 			margin: auto;
     		width: 50%;
@@ -50,6 +83,7 @@
 	<div align="center">
 		<h1 class="header" align="center">Page will be taken down after our Java II class.</h1>
 		<h1 class="header" align="center">All Books Can Be Downloaded!</h1>
+		<h2 class="notice">Click On The Title Of The Book To Load PDF!</h2>
 		<h3 align="center">Meme of the Day!</h3>
 		<div style="border: 5px solid white;width: 20vw;height: 40vh;">
 			<img class="meme" src="memes/yipij.png">
@@ -57,22 +91,21 @@
 		</div>
 	</div>
 	<div class="book" align="center">
-		<h2>Java Programming by Joyce Farrell</h2>
-		<object width="500" height="700" data="javaProgrammingBook.pdf"></object>
+		<h2 onclick="loadBooks(1)">Java Programming by Joyce Farrell</h2>
+		<object id="book1"></object>
 	</div>
 	<div class="book" align="center">
-		<h2>Head First Java 2nd Edition</h2>
-		<object width="500" height="700" data="headFirstJava2ndEdition.pdf"></object>
+		<h2 onclick="loadBooks(2)">Head First Java 2nd Edition</h2>
+		<object id="book2"></object>
 	</div>
 	
 	<div class="book" align="center">
-		<h2>Java for Dummies 6th Edition</h2>
-		<object width="500" height="700" data="javaForDummies6thEdition.pdf"></object>
+		<h2 onclick="loadBooks(3)">Java for Dummies 6th Edition</h2>
+		<object id="book3"></object>
 	</div>
 	<div class="book" align="center">
-		<h2>Java™ Programs to Accompany Programming Logic and Design 7th Edition</h2>
-		<object width="500" height="700" data="javaLogicAndDesign.pdf"></object>
+		<h2 onclick="loadBooks(4)">Java™ Programs to Accompany Programming Logic and Design 7th Edition</h2>
+		<object id="book4"></object>
 	</div>
-	
 </body>
 </html>
