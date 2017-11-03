@@ -1,26 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Courtney</title>
-	<style type="text/css">
-		html {
-			background-color: black;
-		}
-		h1 {
-			color: white;
-			font-style: italic;
-		}
-		img {
-			background-color: transparent;
-		}
-	</style>
+	<title>Control</title>
 </head>
-<body background="heartBackground.png">
-	<div align="center">
-		<h1>Courtney and Some Dude That's 20!</h1>
-		<img src="herDudeJail.jpg" width="500" height="500">
-		<img src="courtney.png" width="500" height="500">
-		<h1>True Love or Jailbait?</h1>
-	</div>
+<body>
+	<a id="main" href="books/books.html"></a>
+	<script type="text/javascript">
+		window.onload = function() {
+			window.location = document.getElementById('main').href;
+		}
+	</script>
 </body>
 </html>
