@@ -1,46 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Main Page</title>
-	<script type="text/javascript" src="index.js"></script>
-	<script type="text/javascript">
-		function getInput(){
-			var ui = document.getElementById('code').value;
-			this.gotoPage(ui);
-		}
-	</script>
-	<style type="text/css">
-		html {
-			background-color: black;
-		}
-		h1 {
-			font-size: 5vw;
-			color: white;
-		}
-		input#code {
-			width: 40vw;
-			height: 10vh;
-			font-size: 5vw;
-			text-align: center;
-		}
-		input#submit {
-			margin: 2vh 15vw 0;
-			width: 40vw;
-			height: 10vh;
-			font-size: 2vw;
-			text-align: center;
-		}
-	</style>
-	<script type="text/javascript">
+	<head>
+		<title>Main Page</title>
+		<script type="text/javascript" src="index.js"></script>
+		<script type="text/javascript">
+			function getInput(){
+				var ui = document.getElementById('code').value;
+				this.gotoPage(ui);
+			}
+		</script>
+		<style type="text/css">
+			html {
+				background-color: black;
+			}
+			body {
+				background-image: url("");
+		    	height: 100vh;
+			    background-position: center;
+			    background-repeat: no-repeat;
+			    background-size: cover;
+			}
+			h1 {
+				font-size: 5vw;
+				color: white;
+			}
+			input#code {
+				width: 40vw;
+				height: 10vh;
+				font-size: 5vw;
+				text-align: center;
+			}
+			input#submit {
+				margin: 2vh 15vw 0;
+				width: 40vw;
+				height: 10vh;
+				font-size: 2vw;
+				text-align: center;
+			}
+		</style>
+		<script type="text/javascript">
+			
+		</script>
+	</head>
+	<body>
+		<h1 align="center">Type in your access code!</h1>
+		<div align="center">
+			<input id="code" type="password" name="code">
+			<input id="submit" type="button" name="submit" value="Submit" onclick="getInput()">
+		</div>
 		
-	</script>
-</head>
-<body>
-	<h1 align="center">Type in your access code!</h1>
-	<div align="center">
-		<input id="code" type="password" name="code">
-		<input id="submit" type="button" name="submit" value="Submit" onclick="getInput()">
-	</div>
-	
-</body>
+	</body>
 </html>
